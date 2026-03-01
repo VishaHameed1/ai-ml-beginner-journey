@@ -3,7 +3,7 @@ import os
 
 # 1. Setup your API Key
 # Replace the text below with your actual key from Google AI Studio
-os.environ["GEMINI_API_KEY"] = "AIzaSyBp5tQPcujnd0zstyoIutcfzlrBiep2Fdg"
+os.environ["GEMINI_API_KEY"] = "."
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 # 2. Initialize the model
